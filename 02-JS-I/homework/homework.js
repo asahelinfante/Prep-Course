@@ -67,7 +67,7 @@ function sonIguales(x, y) {
   if (x === y) {
     return true;
   }
-  return false:
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -75,9 +75,10 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1 === str2) {
-    return  true:
+    return  true;
   }
-  return false:
+  return false;
+}
 }
   
 }
@@ -91,6 +92,7 @@ function menosQueNoventa(num) {
   }
   return false;
 }
+}
   
 }
 
@@ -103,7 +105,7 @@ function mayorQueCincuenta(num) {
   }
   return false;
 }
-}
+
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
